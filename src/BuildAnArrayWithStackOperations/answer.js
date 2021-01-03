@@ -1,15 +1,18 @@
 function buildArray(target, n) {
-  let p = 0;
   let output = [];
+  let pointer = 0;
 
   for (let i = 1; i <= n; i++) {
     output.push('Push');
-    if (i !== target[p]) {
+
+    if (target[pointer] !== i) {
       output.push('Pop');
     } else {
-      p++;
+      pointer++;
     }
-    if (p == target.length) break;
+
+    if (pointer == target.length) break;
   }
+
   return output;
 }
