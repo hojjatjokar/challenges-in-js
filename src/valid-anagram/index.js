@@ -20,3 +20,5 @@ function isAnagram(s, t) {
 
   return true;
 }
+
+export default isAnagram;
