@@ -6,4 +6,4 @@
 3. `npm run test` for running tests
 ## Part 1
 
-1. (Valid Anagram)[https://github.com/hojjatjokar/challenges-in-js/blob/main/src/ValidAnagram/challenge.md] 
+1. [Valid Anagram](https://github.com/hojjatjokar/challenges-in-js/blob/main/src/ValidAnagram/challenge.md)
