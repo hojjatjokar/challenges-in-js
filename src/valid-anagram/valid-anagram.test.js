@@ -1,9 +1,13 @@
 import validAnagram from './index';
 
-test('is rat anagram of car', () => {
+test('Is car anagram of rat', () => {
   expect(validAnagram('rat', 'car')).toBe(false);
 });
 
-test('Is anagram anagram of nagaram', () => {
+test('Is nagaram anagram of anagram', () => {
   expect(validAnagram('anagram', 'nagaram')).toBe(true);
+});
+
+test('Is hell anagram of hello', () => {
+  expect(validAnagram('hello', 'hell')).toBe(true);
 });

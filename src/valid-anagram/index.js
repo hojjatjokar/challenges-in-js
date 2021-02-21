@@ -4,8 +4,6 @@
  * @return {boolean}
  */
 function isAnagram(s, t) {
-  if (s.length !== t.length) return false;
-
   const sMap = new Map();
 
   for (const value of s) {
