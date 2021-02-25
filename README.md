@@ -8,3 +8,4 @@
 
 1. [Valid Anagram](https://github.com/hojjatjokar/challenges-in-js/blob/main/src/valid-anagram/challenge.md)
 2. [Contains Duplicate](https://github.com/hojjatjokar/challenges-in-js/blob/main/src/contains-duplicate/challenge.md)
+3. [Character counter](https://github.com/hojjatjokar/challenges-in-js/blob/main/src/count-of-each-character/challenge.md)
