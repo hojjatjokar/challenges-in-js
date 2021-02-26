@@ -3,6 +3,10 @@ const errorMessages = {
   wrongArgument: 'Expect a argument of type string',
 }
 
+/**
+ * @param {string} str
+ * @return {object}
+ */
 function countOfEachCharacter(str){
   if(!str) throw new Error(errorMessages.missingArgument);
   if(typeof str !== 'string') throw new Error(errorMessages.wrongArgument);
