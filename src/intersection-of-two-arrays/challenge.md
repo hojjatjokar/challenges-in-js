@@ -16,7 +16,26 @@ Output: [2]
 ```
 Input: nums1 = [4,9,5], nums2 = [9,4,9,8,4]
 Output: [9,4]
-Note:
+```
+
+### Example 3:
+
+```
+Input: nums1 = [], nums2 = [1,2,3,4]
+Output: []
+```
+
+### Example 4:
+
+```
+Input: nums1 = ['x'], nums2 = ['y']
+Output: throw error
+```
+
+### Example 5:
+```
+Input: nums1 = null, nums2 = '1,2,3,4'
+Output: throw error
 ```
 
 ## Notes
