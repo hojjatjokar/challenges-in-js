@@ -58,3 +58,6 @@ Output: false
 
 ## Tags
 - Frequeny counter
+
+## Source
+[leetcode](https://leetcode.com/problems/check-array-formation-through-concatenation/)
