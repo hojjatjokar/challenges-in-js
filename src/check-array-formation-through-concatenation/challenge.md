@@ -8,34 +8,34 @@ to reorder the integers in each array `pieces[i]`.
 Return `true` if it is possible to form the array `arr` from pieces. Otherwise,
 return `false`.
 
-**Example** 1:
+## Examples
+
+### Example 1
+- Input: arr = [85], pieces = [[85]]
+- Output: true
+
+### Example 2
+
+- Input: arr = [15,88], pieces = [[88],[15]]
+- Output: true
 
 ```
-Input: arr = [85], pieces = [[85]]
-Output: true
-```
-
-**Example** 2:
-
-```
-Input: arr = [15,88], pieces = [[88],[15]]
-Output: true
 Explanation: Concatenate [15] then [88]
 ```
 
-**Example** 3:
+### Example 3:
+- Input: arr = [49,18,16], pieces = [[16,18,49]]
+- Output: false
 
 ```
-Input: arr = [49,18,16], pieces = [[16,18,49]]
-Output: false
 Explanation: Even though the numbers match, we cannot reorder pieces[0].
 ```
 
-**Example** 4:
+### Example 4
+- Input: arr = [91,4,64,78], pieces = [[78],[4,64],[91]]
+- Output: true
 
 ```
-Input: arr = [91,4,64,78], pieces = [[78],[4,64],[91]]
-Output: true
 Explanation: Concatenate [91] then [4,64] then [78]
 ```
 
@@ -55,3 +55,6 @@ Output: false
 - The integers in `arr` are distinct.
 - The integers in `pieces` are distinct (i.e., If we flatten pieces in a 1D
   array, all the integers in this array are distinct).
+
+## Tags
+- Frequeny counter
