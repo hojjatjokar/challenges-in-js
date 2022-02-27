@@ -10,36 +10,47 @@ Note that pos is not passed as a parameter.
 
 Return true if there is a cycle in the linked list. Otherwise, return false.
 
-**Example** 1:
+## Examples
+### Example 1
 
 ![Example 1](https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist.png)
 
+- Input: head = [3,2,0,-4], pos = 1
+- Output: true
+
 ```
-Input: head = [3,2,0,-4], pos = 1
-Output: true
 Explanation: There is a cycle in the linked list, where the tail connects to the 1st node (0-indexed).
 ```
 
-**Example** 2:
+### Example 2
 ![Example 2](https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test2.png)
 
+- Input: head = [1,2], pos = 0
+- Output: true
+
 ```
-Input: head = [1,2], pos = 0
-Output: true
 Explanation: There is a cycle in the linked list, where the tail connects to the 0th node.
 ```
 
-**Example** 3:
+### Example 3
 ![Example 3](https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test3.png)
 
+- Input: head = [1], pos = -1
+- Output: false
 ```
-Input: head = [1], pos = -1
-Output: false
 Explanation: There is no cycle in the linked list.
 ```
 
-**Constraints**:
+## Constraints
 
 - `The number of the nodes in the list is in the range [0, 104].`
 - `-105 <= Node.val <= 105`
 - `pos is -1 or a valid index in the linked-list.`
+
+## Tags
+- Hash Table
+- Linked List
+- Two pointer
+
+## Reference
+- [Leetcode](https://leetcode.com/problems/linked-list-cycle/)
