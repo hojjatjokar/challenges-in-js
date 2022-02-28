@@ -10,26 +10,32 @@ In the American keyboard:
 
 ![Image of keyboard](https://assets.leetcode.com/uploads/2018/10/12/keyboard.png)
 
-## Example 1:
-```
-Input: words = ["Hello","Alaska","Dad","Peace"]
-Output: ["Alaska","Dad"]
-```
+## Examples
+### Example 1
 
-## Example 2:
-```
-Input: words = ["omk"]
-Output: []
-```
+- Input: words = ["Hello","Alaska","Dad","Peace"]
+- Output: ["Alaska","Dad"]
 
-## Example 3:
-```
-Input: words = ["adsdf","sfd"]
-Output: ["adsdf","sfd"]
-```
+### Example 2:
+
+- Input: words = ["omk"]
+- Output: []
+
+### Example 3:
+
+- Input: words = ["adsdf","sfd"]
+- Output: ["adsdf","sfd"]
 
 ## Constraints:
 
 - `1 <= words.length <= 20`
 - `1 <= words[i].length <= 100`
 - `words[i] consists of English letters (both lowercase and uppercase).`
+
+## Tags
+- Array
+- Hash Table
+- String
+
+## References
+- [Leetcode](https://leetcode.com/problems/keyboard-row/)
