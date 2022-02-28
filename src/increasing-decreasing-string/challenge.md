@@ -16,44 +16,50 @@ Given a string s. You should re-order the string using the following algorithm:
 
 Return the result string after sorting s with this algorithm.
 
-**Example** 1:
+## Example
+### Example 1
+
+- Input: s = "aaaabbbbcccc"
+- Output: "abccbaabccba"
 
 ```
-Input: s = "aaaabbbbcccc"
-Output: "abccbaabccba"
 Explanation: After steps 1, 2 and 3 of the first iteration, result = "abc" After steps 4, 5 and 6 of the first iteration, result = "abccba" First iteration is done. Now s = "aabbcc" and we go back to step 1 After steps 1, 2 and 3 of the second iteration, result = "abccbaabc" After steps 4, 5 and 6 of the second iteration, result = "abccbaabccba"
 ```
 
-**Example** 2:
+### Example 2
+
+- Input: s = "rat"
+- Output: "art"
 
 ```
-Input: s = "rat"
-Output: "art"
 Explanation: The word "rat" becomes "art" after re-ordering it with the mentioned algorithm.
 ```
 
-**Example** 3:
+### Example 3
 
-```
-Input: s = "leetcode"
-Output: "cdelotee"
-```
+- Input: s = "leetcode"
+- Output: "cdelotee"
 
-**Example** 4:
+### Example 4
 
-```
-Input: s = "ggggggg"
-Output: "ggggggg"
-```
+- Input: s = "ggggggg"
+- Output: "ggggggg"
 
-**Example** 5:
+### Example 5
 
-```
-Input: s = "spo"
-Output: "ops"
-```
+- Input: s = "spo"
+- Output: "ops"
 
-**Constraints**:
+## Constraints
 
 - `1 <= s.length <= 500`
 - `s contains only lower-case English letters.`
+
+## Tags
+
+- Hash Table
+- String
+- Counting
+
+## Reference
+- [Leetcode](https://leetcode.com/problems/increasing-decreasing-string/)
