@@ -8,33 +8,37 @@ order.
 
 Given the string command, return the Goal Parser's interpretation of command.
 
-**Example** 1:
+## Examples
+### Example 1
 
+- Input: `command = "G()(al)"`
+- Output: `"Goal"`
+- Explanation:
 ```
-Input: command = "G()(al)"
-Output: "Goal"
-Explanation: The Goal Parser interprets the command as follows:
+The Goal Parser interprets the command as follows:
 G -> G
 () -> o
 (al) -> al
 The final concatenated result is "Goal".
 ```
 
-**Example** 2:
+### Example 2
+- Input: command = `"G()()()()(al)"`
+- Output: `"Gooooal"`
 
-```
-Input: command = "G()()()()(al)"
-Output: "Gooooal"
-```
+### Example 3
 
-**Example** 3:
+- Input: `command = "(al)G(al)()()G"`
+- Output: `"alGalooG"`
 
-```
-Input: command = "(al)G(al)()()G"
-Output: "alGalooG"
-```
 
-**Constraints**:
+## Constraints
 
 - `1 <= command.length <= 100`
 - `command consists of "G", "()", and/or "(al)" in some order.`
+
+## Tags
+- String
+
+## Reference
+- [Leetcode](https://leetcode.com/problems/goal-parser-interpretation/)
