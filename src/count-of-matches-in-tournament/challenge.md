@@ -10,11 +10,13 @@ tournament, and the rest gets paired. A total of (n - 1) / 2 matches are played,
 and (n - 1) / 2 + 1 teams advance to the next round. Return the number of
 matches played in the tournament until a winner is decided.
 
-**Example** 1:
+## Example
+### Example 1
+
+- Input: n = 7
+- Output: 6
 
 ```
-Input: n = 7
-Output: 6
 Explanation: Details of the tournament:
 - 1st Round: Teams = 7, Matches = 3, and 4 teams advance.
 - 2nd Round: Teams = 4, Matches = 2, and 2 teams advance.
@@ -22,11 +24,12 @@ Explanation: Details of the tournament:
 Total number of matches = 3 + 2 + 1 = 6.
 ```
 
-**Example** 2:
+### Example 2
+
+- Input: n = 14
+- Output: 13
 
 ```
-Input: n = 14
-Output: 13
 Explanation: Details of the tournament:
 - 1st Round: Teams = 14, Matches = 7, and 7 teams advance.
 - 2nd Round: Teams = 7, Matches = 3, and 4 teams advance.
@@ -35,6 +38,14 @@ Explanation: Details of the tournament:
 Total number of matches = 7 + 3 + 2 + 1 = 13.
 ```
 
-**Constraints**:
+## Constraints
 
 - `1 <= n <= 200`
+
+## Tags
+
+- Simulation
+- Math
+
+## Source
+[Leetcode](https://leetcode.com/problems/count-of-matches-in-tournament/)
